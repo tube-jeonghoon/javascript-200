@@ -22,6 +22,8 @@ while ((h = hometown.shift())) {
     if (result) break;
 }
 
+console.log(hometown);
+
 var i = 0;
 var names = ["남준", "정국", "윤기", "호섭"];
 var cities = ["경기", "부산", "대구", "광주"];
