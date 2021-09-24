@@ -1,0 +1,9 @@
+// throw 문
+function checkNumber(val) {
+  if (typeof val !== 'number') throw '유효하지 않은 값입니다.';
+  console.log('숫자형 값으로 확인되었습니다.');
+}
+
+checkNumber(10);
+checkNumber('숫자');
+console.log('완료');
